@@ -1,0 +1,113 @@
+[
+  {
+    "route": "/",
+    "firstLoadUncompressedJsBytes": 687685,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/24d5o4n_o8tq6.js",
+      ".next/static/chunks/2sq1_yjm32gkv.js",
+      ".next/static/chunks/1qeuxxmzuvf3a.js",
+      ".next/static/chunks/017dsko60rasc.js",
+      ".next/static/chunks/3skytvejn9bgi.js",
+      ".next/static/chunks/12alb1lza9t88.js",
+      ".next/static/chunks/2g17js6y0e8pj.js",
+      ".next/static/chunks/turbopack-2u1d16houkiyo.js"
+    ]
+  },
+  {
+    "route": "/products/[slug]",
+    "firstLoadUncompressedJsBytes": 675981,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/24d5o4n_o8tq6.js",
+      ".next/static/chunks/2sq1_yjm32gkv.js",
+      ".next/static/chunks/1-yn1jzyqqdwt.js",
+      ".next/static/chunks/017dsko60rasc.js",
+      ".next/static/chunks/3skytvejn9bgi.js",
+      ".next/static/chunks/12alb1lza9t88.js",
+      ".next/static/chunks/2g17js6y0e8pj.js",
+      ".next/static/chunks/turbopack-2u1d16houkiyo.js"
+    ]
+  },
+  {
+    "route": "/account",
+    "firstLoadUncompressedJsBytes": 675453,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/24d5o4n_o8tq6.js",
+      ".next/static/chunks/2sq1_yjm32gkv.js",
+      ".next/static/chunks/0cgz6anil71g5.js",
+      ".next/static/chunks/017dsko60rasc.js",
+      ".next/static/chunks/3skytvejn9bgi.js",
+      ".next/static/chunks/12alb1lza9t88.js",
+      ".next/static/chunks/2g17js6y0e8pj.js",
+      ".next/static/chunks/turbopack-2u1d16houkiyo.js"
+    ]
+  },
+  {
+    "route": "/cart",
+    "firstLoadUncompressedJsBytes": 675453,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/24d5o4n_o8tq6.js",
+      ".next/static/chunks/2sq1_yjm32gkv.js",
+      ".next/static/chunks/0cgz6anil71g5.js",
+      ".next/static/chunks/017dsko60rasc.js",
+      ".next/static/chunks/3skytvejn9bgi.js",
+      ".next/static/chunks/12alb1lza9t88.js",
+      ".next/static/chunks/2g17js6y0e8pj.js",
+      ".next/static/chunks/turbopack-2u1d16houkiyo.js"
+    ]
+  },
+  {
+    "route": "/compare",
+    "firstLoadUncompressedJsBytes": 675453,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/24d5o4n_o8tq6.js",
+      ".next/static/chunks/2sq1_yjm32gkv.js",
+      ".next/static/chunks/0cgz6anil71g5.js",
+      ".next/static/chunks/017dsko60rasc.js",
+      ".next/static/chunks/3skytvejn9bgi.js",
+      ".next/static/chunks/12alb1lza9t88.js",
+      ".next/static/chunks/2g17js6y0e8pj.js",
+      ".next/static/chunks/turbopack-2u1d16houkiyo.js"
+    ]
+  },
+  {
+    "route": "/wishlist",
+    "firstLoadUncompressedJsBytes": 675453,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/24d5o4n_o8tq6.js",
+      ".next/static/chunks/2sq1_yjm32gkv.js",
+      ".next/static/chunks/0cgz6anil71g5.js",
+      ".next/static/chunks/017dsko60rasc.js",
+      ".next/static/chunks/3skytvejn9bgi.js",
+      ".next/static/chunks/12alb1lza9t88.js",
+      ".next/static/chunks/2g17js6y0e8pj.js",
+      ".next/static/chunks/turbopack-2u1d16houkiyo.js"
+    ]
+  },
+  {
+    "route": "/collections",
+    "firstLoadUncompressedJsBytes": 673689,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/24d5o4n_o8tq6.js",
+      ".next/static/chunks/2sq1_yjm32gkv.js",
+      ".next/static/chunks/3-q97i79cnlj6.js",
+      ".next/static/chunks/017dsko60rasc.js",
+      ".next/static/chunks/3skytvejn9bgi.js",
+      ".next/static/chunks/12alb1lza9t88.js",
+      ".next/static/chunks/2g17js6y0e8pj.js",
+      ".next/static/chunks/turbopack-2u1d16houkiyo.js"
+    ]
+  },
+  {
+    "route": "/_not-found",
+    "firstLoadUncompressedJsBytes": 658982,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/24d5o4n_o8tq6.js",
+      ".next/static/chunks/2sq1_yjm32gkv.js",
+      ".next/static/chunks/017dsko60rasc.js",
+      ".next/static/chunks/3skytvejn9bgi.js",
+      ".next/static/chunks/12alb1lza9t88.js",
+      ".next/static/chunks/2g17js6y0e8pj.js",
+      ".next/static/chunks/turbopack-2u1d16houkiyo.js"
+    ]
+  }
+]

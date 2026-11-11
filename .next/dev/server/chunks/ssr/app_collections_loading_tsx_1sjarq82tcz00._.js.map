@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/Levroun%20India/Modern%20Helmet%20Collection/app/collections/loading.tsx"],"sourcesContent":["export default function Loading() {\n  return (\n    <main className=\"page-shell py-20\">\n      <div className=\"skeleton h-24 w-2/3\" />\n      <div className=\"mt-16 grid grid-cols-2 gap-4 md:grid-cols-4\">\n        {Array.from({ length: 8 }).map((_, index) => (\n          <div className=\"skeleton aspect-[4/5]\" key={index} />\n        ))}\n      </div>\n    </main>\n  );\n}\n"],"names":["Loading","className","Array","from","length","map","_","index"],"mappings":";;;;;;AAAe,SAASA;IACtB,qBACE,8OAAC;QAAKC,WAAU;;0BACd,8OAAC;gBAAIA,WAAU;;;;;;0BACf,8OAAC;gBAAIA,WAAU;0BACZC,MAAMC,IAAI,CAAC;oBAAEC,QAAQ;gBAAE,GAAGC,GAAG,CAAC,CAACC,GAAGC,sBACjC,8OAAC;wBAAIN,WAAU;uBAA6BM;;;;;;;;;;;;;;;;AAKtD"}}]
+}

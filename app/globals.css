@@ -1,0 +1,209 @@
+@import "tailwindcss";
+
+@theme {
+  --color-orange: #ff4d00;
+}
+
+@layer base {
+  :root {
+    --background: #f5f4f1;
+    --surface: #ffffff;
+    --soft: #e9e8e4;
+    --text: #131513;
+    --muted: #686b66;
+    --line: rgba(19, 21, 19, 0.14);
+    --ink: #151716;
+    --orange: #ff4d00;
+    color-scheme: light;
+  }
+
+  :root[data-theme="dark"] {
+    --background: #111312;
+    --surface: #191b1a;
+    --soft: #242725;
+    --text: #f7f6f3;
+    --muted: #a3a59f;
+    --line: rgba(255, 255, 255, 0.13);
+    --ink: #090a09;
+    color-scheme: dark;
+  }
+
+  * {
+    border-color: var(--line);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    min-width: 320px;
+    overflow-x: hidden;
+    background: var(--background);
+    color: var(--text);
+    transition:
+      background-color 300ms ease,
+      color 300ms ease;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  button,
+  a,
+  input,
+  select,
+  summary {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  button,
+  select,
+  summary {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background: var(--orange);
+    color: white;
+  }
+}
+
+@layer components {
+  .page-shell {
+    width: min(100% - 1.5rem, 1480px);
+    margin-inline: auto;
+  }
+
+  .eyebrow {
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--orange);
+  }
+
+  .display-title {
+    font-size: clamp(2rem, 6vw, 6rem);
+    font-weight: 900;
+    line-height: 0.92;
+    letter-spacing: -0.065em;
+    text-transform: uppercase;
+  }
+
+  .section-title {
+    font-size: clamp(1.6rem, 4vw, 4rem);
+    font-weight: 900;
+    line-height: 0.98;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+  }
+
+  .button-primary,
+  .button-secondary {
+    display: inline-flex;
+    min-height: 3.25rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.65rem;
+    padding-inline: 1.5rem;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition:
+      color 180ms ease,
+      background-color 180ms ease,
+      border-color 180ms ease,
+      transform 180ms ease;
+  }
+
+  .button-primary {
+    border: 1px solid var(--orange);
+    background: var(--orange);
+    color: #fff;
+  }
+
+  .button-primary:hover {
+    transform: translateY(-2px);
+    border-color: #ff6a29;
+    background: #ff6a29;
+  }
+
+  .button-secondary {
+    border: 1px solid currentColor;
+    background: transparent;
+  }
+
+  .button-secondary:hover {
+    transform: translateY(-2px);
+    background: currentColor;
+  }
+
+  .button-secondary:hover > span,
+  .button-secondary:hover > svg {
+    filter: invert(1);
+  }
+
+  .icon-button {
+    display: inline-grid;
+    height: 2.6rem;
+    width: 2.6rem;
+    place-items: center;
+    border: 1px solid var(--line);
+    touch-action: manipulation;
+    transition:
+      background-color 180ms ease,
+      color 180ms ease;
+  }
+
+  .icon-button:hover {
+    background: var(--orange);
+    color: white;
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem 0.75rem;
+  }
+
+  .noise::after {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    content: "";
+    opacity: 0.17;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.22'/%3E%3C/svg%3E");
+  }
+
+  .skeleton {
+    background: linear-gradient(90deg, var(--soft) 25%, var(--surface) 50%, var(--soft) 75%);
+    background-size: 200% 100%;
+    animation: skeleton 1.5s infinite;
+  }
+}
+
+@media (min-width: 700px) {
+  .page-shell {
+    width: min(100% - 3rem, 1480px);
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 3rem 1.25rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .product-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@keyframes skeleton {
+  to {
+    background-position: -200% 0;
+  }
+}

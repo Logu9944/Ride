@@ -1,0 +1,10 @@
+{
+  "description": "Shop helmets in a streamlined collection with product details, quick add-to-cart, category navigation, search, and filters by brand, size, and color.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

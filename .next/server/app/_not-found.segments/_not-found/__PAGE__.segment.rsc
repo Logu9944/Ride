@@ -1,0 +1,31 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/24d5o4n_o8tq6.js"
+3:"/_next/static/chunks/2sq1_yjm32gkv.js"
+4:I[67353,["$2","$3"],"StoreProvider"]
+5:I[71939,["$2","$3"],"SiteChrome"]
+6:I[7587,["$2","$3"],"PageTransition"]
+7:I[16274,["$2","$3"],"default"]
+8:I[7414,["$2","$3"],"default"]
+9:I[67337,["$2","$3"],""]
+10:I[98447,["$2","$3"],"OutletBoundary"]
+11:"$Sreact.suspense"
+14:"ViewportBoundary"
+15:I[98447,["$2","$3"],"$14"]
+16:"MetadataBoundary"
+17:I[98447,["$2","$3"],"$16"]
+:HL["/_next/static/chunks/1ihmcts-8sobf.css","style"]
+b:X
+e:X
+e:C
+f:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","main",null,{"className":"page-shell grid min-h-[65vh] place-items-center text-center","children":["$","div",null,{"children":[["$","p",null,{"className":"font-[family-name:var(--font-display)] text-8xl font-black text-[var(--orange)]","children":"404"}],["$","h1",null,{"className":"mt-3 text-3xl font-black uppercase","children":"Road not found."}],["$","p",null,{"className":"mt-3 text-sm text-[var(--muted)]","children":"This route has taken an unexpected turn."}],["$","$L9",null,{"className":"button-primary mt-7","href":"/","children":"Return home"}]]}]}],null,["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]]}],"p":"$@13","v":null,"s":"$b"}}]]
+c:[["children",{"s":"/_not-found","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1ihmcts-8sobf.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/24d5o4n_o8tq6.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/2sq1_yjm32gkv.js","async":true}]],["$","html",null,{"lang":"en","className":"kNnxMW_variable CQmNBG_variable","suppressHydrationWarning":true,"children":["$","body",null,{"className":"font-[family-name:var(--font-body)] antialiased","children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}],"notFound":[["$","main",null,{"className":"page-shell grid min-h-[65vh] place-items-center text-center","children":["$","div",null,{"children":[["$","p",null,{"className":"font-[family-name:var(--font-display)] text-8xl font-black text-[var(--orange)]","children":"404"}],["$","h1",null,{"className":"mt-3 text-3xl font-black uppercase","children":"Road not found."}],["$","p",null,{"className":"mt-3 text-sm text-[var(--muted)]","children":"This route has taken an unexpected turn."}],["$","$L9",null,{"className":"button-primary mt-7","href":"/","children":"Return home"}]]}]}],[]]}]}]}]}]}]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$11",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"RIDEFORM — Premium Motorcycle Helmets"}],["$","meta","1",{"name":"description","content":"Premium motorcycle helmets engineered for protection and designed for uncompromising performance."}],["$","meta","2",{"name":"keywords","content":"motorcycle helmets,full face helmets,modular helmets,premium riding gear"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@18","v":null,"s":"$b"}},"a":"$@19","u":"$@1a","b":"DZa1bdhn1WI-jENnzuGiR"}
+12:null
+b:300
+1a:true
+b:C
+19:0
+d:"$undefined"
+a:"$undefined"
+18:"$undefined"
+13:"$undefined"

@@ -170,24 +170,24 @@ export function SiteChrome({ children }: { children: React.ReactNode }) {
         <MessageCircle size={22} />
       </Link>
       <nav className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-4 border-t border-[var(--line)] bg-[var(--surface)]/95 px-2 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-2 backdrop-blur-lg md:hidden">
-        {[
-          ["Home", "/", Home, 0],
-          ["Shop", "/collections", Store, 0],
-          ["Wishlist", "/wishlist", Heart, wishlist.length],
-          ["Cart", "/cart", ShoppingBag, cartCount],
-        ].map(([label, href, Icon, count]) => (
+        {([
+          { label: "Home", href: "/", Icon: Home, count: 0 },
+          { label: "Shop", href: "/collections", Icon: Store, count: 0 },
+          { label: "Wishlist", href: "/wishlist", Icon: Heart, count: wishlist.length },
+          { label: "Cart", href: "/cart", Icon: ShoppingBag, count: cartCount },
+        ] as { label: string; href: string; Icon: React.ElementType; count: number }[]).map(({ label, href, Icon, count }) => (
           <Link
             className={`relative flex flex-col items-center gap-1 py-1 text-[9px] font-bold uppercase tracking-wider ${pathname === href ? "text-[var(--orange)]" : "text-[var(--muted)]"}`}
-            href={href as string}
-            key={label as string}
+            href={href}
+            key={label}
           >
             <Icon size={20} />
-            {(count as number) > 0 && (
+            {count > 0 && (
               <span className="absolute right-[calc(50%-18px)] top-0 grid h-[15px] min-w-[15px] place-items-center rounded-full bg-[var(--orange)] px-1 text-[8px] font-extrabold text-white">
-                {count as number}
+                {count}
               </span>
             )}
-            <span>{label as string}</span>
+            <span>{label}</span>
           </Link>
         ))}
       </nav>
